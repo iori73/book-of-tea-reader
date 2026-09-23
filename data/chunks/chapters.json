@@ -1,0 +1,65 @@
+[
+  {
+    "num": 1,
+    "slug": "01_cup_of_humanity",
+    "jp_title": "第一章　人情の碗",
+    "en_title": "I. The Cup of Humanity",
+    "icon": "01-bowl.svg",
+    "chunk_count": 122,
+    "reading_minutes": 12
+  },
+  {
+    "num": 2,
+    "slug": "02_schools_of_tea",
+    "jp_title": "第二章　茶の諸流",
+    "en_title": "II. The Schools of Tea",
+    "icon": "02-leaves.svg",
+    "chunk_count": 141,
+    "reading_minutes": 13
+  },
+  {
+    "num": 3,
+    "slug": "03_taoism_and_zennism",
+    "jp_title": "第三章　道教と禅道",
+    "en_title": "III. Taoism and Zennism",
+    "icon": "03-enso.svg",
+    "chunk_count": 155,
+    "reading_minutes": 15
+  },
+  {
+    "num": 4,
+    "slug": "04_the_tea_room",
+    "jp_title": "第四章　茶室",
+    "en_title": "IV. The Tea-Room",
+    "icon": "04-lattice.svg",
+    "chunk_count": 149,
+    "reading_minutes": 17
+  },
+  {
+    "num": 5,
+    "slug": "05_art_appreciation",
+    "jp_title": "第五章　芸術鑑賞",
+    "en_title": "V. Art Appreciation",
+    "icon": "05-scroll.svg",
+    "chunk_count": 160,
+    "reading_minutes": 11
+  },
+  {
+    "num": 6,
+    "slug": "06_flowers",
+    "jp_title": "第六章　花",
+    "en_title": "VI. Flowers",
+    "icon": "06-flower.svg",
+    "chunk_count": 166,
+    "reading_minutes": 16
+  },
+  {
+    "num": 7,
+    "slug": "07_tea_masters",
+    "jp_title": "第七章　茶の宗匠",
+    "en_title": "VII. Tea-Masters",
+    "icon": "07-whisk.svg",
+    "chunk_count": 72,
+    "reading_minutes": 6
+  }
+]

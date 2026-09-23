@@ -1,0 +1,747 @@
+[
+  {
+    "jp": "第四章　茶室",
+    "en": "IV. The Tea-Room",
+    "para_break": true
+  },
+  {
+    "jp": "石造や煉瓦造り建築の伝統によって育てられた欧州建築家の目には、木材や竹を用いるわが日本式建築法は建築としての部類に入れる価値はほとんどないように思われる。",
+    "en": "To European architects brought up on the traditions of stone and brick construction, our Japanese method of building with wood and bamboo seems scarcely worthy to be ranked as architecture.",
+    "para_break": true
+  },
+  {
+    "jp": "ある相当立派な西洋建築の研究家がわが国の大社寺の実に完備していることを認め、これを称揚したのは全くほんの最近のことである。",
+    "en": "It is but quite recently that a competent student of Western architecture has recognised and paid tribute to the remarkable perfection of our great temples.",
+    "para_break": false
+  },
+  {
+    "jp": "わが国で一流の建築についてこういう事情であるから、西洋とは全く趣を異にする茶室の微妙な美しさ、その建築の原理および装飾が門外漢に充分にわかろうとはまず予期できないことである。",
+    "en": "Such being the case as regards our classic architecture, we could hardly expect the outsider to appreciate the subtle beauty of the tea-room, its principles of construction and decoration being entirely different from those of the West.",
+    "para_break": false
+  },
+  {
+    "jp": "茶室（数寄屋）は単なる小家で、それ以外のものをてらうものではない、いわゆる茅屋に過ぎない。",
+    "en": "The tea-room (the Sukiya) does not pretend to be other than a mere cottage--a straw hut, as we call it.",
+    "para_break": true
+  },
+  {
+    "jp": "数寄屋の原義は「好き家」である。",
+    "en": "The original ideographs for Sukiya mean the Abode of Fancy.",
+    "para_break": false
+  },
+  {
+    "jp": "後になっていろいろな宗匠が茶室に対するそれぞれの考えに従っていろいろな漢字を置き換えた、そして数寄屋という語は「空き家」または「数奇家」の意味にもなる。",
+    "en": "Latterly the various tea-masters substituted various Chinese characters according to their conception of the tea-room, and the term Sukiya may signify the Abode of Vacancy or the Abode of the Unsymmetrical.",
+    "para_break": false
+  },
+  {
+    "jp": "それは詩趣を宿すための仮りの住み家であるからには「好き家」である。",
+    "en": "It is an Abode of Fancy inasmuch as it is an ephemeral structure built to house a poetic impulse.",
+    "para_break": false
+  },
+  {
+    "jp": "さしあたって、ある美的必要を満たすためにおく物のほかは、いっさいの装飾を欠くからには「空き家」である。",
+    "en": "It is an Abode of Vacancy inasmuch as it is devoid of ornamentation except for what may be placed in it to satisfy some aesthetic need of the moment.",
+    "para_break": false
+  },
+  {
+    "jp": "それは「不完全崇拝」にささげられ、故意に何かを仕上げずにおいて、想像の働きにこれを完成させるからには「数奇家」である。",
+    "en": "It is an Abode of the Unsymmetrical inasmuch as it is consecrated to the worship of the Imperfect, purposely leaving some thing unfinished for the play of the imagination to complete.",
+    "para_break": false
+  },
+  {
+    "jp": "茶道の理想は十六世紀以来わが建築術に非常な影響を及ぼしたので、今日、日本の普通の家屋の内部はその装飾の配合が極端に簡素なため、外国人にはほとんど没趣味なものに見える。",
+    "en": "The ideals of Teaism have since the sixteenth century influenced our architecture to such degree that the ordinary Japanese interior of the present day, on account of the extreme simplicity and chasteness of its scheme of decoration, appears to foreigners almost barren.",
+    "para_break": false
+  },
+  {
+    "jp": "始めて独立した茶室を建てたのは千宗易、すなわち後に利休という名で普通に知られている大宗匠で、彼は十六世紀太閤秀吉の愛顧をこうむり、茶の湯の儀式を定めてこれを完成の域に達せしめた。",
+    "en": "The first independent tea-room was the creation of Senno-Soyeki, commonly known by his later name of Rikiu, the greatest of all tea-masters, who, in the sixteenth century, under the patronage of Taiko-Hideyoshi, instituted and brought to a high state of perfection the formalities of the Tea-ceremony.",
+    "para_break": true
+  },
+  {
+    "jp": "茶室の広さはその以前に十五世紀の有名な宗匠紹鴎によって定められていた。",
+    "en": "The proportions of the tea-room had been previously determined by Jowo--a famous tea-master of the fifteenth century.",
+    "para_break": false
+  },
+  {
+    "jp": "初期の茶室はただ普通の客間の一部分を茶の会のために屏風で仕切ったものであった。",
+    "en": "The early tea-room consisted merely of a portion of the ordinary drawing-room partitioned off by screens for the purpose of the tea-gathering.",
+    "para_break": false
+  },
+  {
+    "jp": "その仕切った部分は「かこい」と呼ばれた。その名は、家の中に作られていて独立した建物ではない茶室へ今もなお用いられている。",
+    "en": "The portion partitioned off was called the Kakoi (enclosure), a name still applied to those tea-rooms which are built into a house and are not independent constructions.",
+    "para_break": false
+  },
+  {
+    "jp": "数寄屋は、「グレイスの神よりは多く、ミューズの神よりは少ない。」という句を思い出させるような五人しかはいれないしくみの茶室本部と、茶器を持ち込む前に洗ってそろえておく控えの間（水屋）と、客が茶室へはいれと呼ばれるまで待っている玄関（待合）と、待合と茶室を連絡している庭の小道（露地）とから成っている。",
+    "en": "The Sukiya consists of the tea-room proper, designed to accomodate not more than five persons, a number suggestive of the saying \"more than the Graces and less than the Muses,\" an anteroom (midsuya) where the tea utensils are washed and arranged before being brought in, a portico (machiai) in which the guests wait until they receive the summons to enter the tea-room, and a garden path (the roji) which connects the machiai with the tea-room.",
+    "para_break": false
+  },
+  {
+    "jp": "茶室は見たところなんの印象も与えない。それは日本のいちばん狭い家よりも狭い。",
+    "en": "The tea-room is unimpressive in appearance. It is smaller than the smallest of Japanese houses,",
+    "para_break": false
+  },
+  {
+    "jp": "それにその建築に用いられている材料は、清貧を思わせるようにできている。",
+    "en": "while the materials used in its construction are intended to give the suggestion of refined poverty.",
+    "para_break": false
+  },
+  {
+    "jp": "しかしこれはすべて深遠な芸術的思慮の結果であって、細部に至るまで、立派な宮殿寺院を建てるに費やす以上の周到な注意をもって細工が施されているということを忘れてはならない。",
+    "en": "Yet we must remember that all this is the result of profound artistic forethought, and that the details have been worked out with care perhaps even greater than that expended on the building of the richest palaces and temples.",
+    "para_break": false
+  },
+  {
+    "jp": "よい茶室は普通の邸宅以上に費用がかかる、というのはその細工はもちろんその材料の選択に多大の注意と綿密を要するから。",
+    "en": "A good tea-room is more costly than an ordinary mansion, for the selection of its materials, as well as its workmanship, requires immense care and precision.",
+    "para_break": false
+  },
+  {
+    "jp": "実際茶人に用いられる大工は、職人の中でも特殊な、非常に立派な部類を成している。彼らの仕事は漆器家具匠の仕事にも劣らぬ精巧なものであるから。",
+    "en": "Indeed, the carpenters employed by the tea-masters form a distinct and highly honoured class among artisans, their work being no less delicate than that of the makers of lacquer cabinets.",
+    "para_break": false
+  },
+  {
+    "jp": "茶室はただに西洋のいずれの建築物とも異なるのみならず、日本そのものの古代建築とも著しい対照をなしている。",
+    "en": "The tea-room is not only different from any production of Western architecture, but also contrasts strongly with the classical architecture of Japan itself.",
+    "para_break": true
+  },
+  {
+    "jp": "わが国古代の立派な建築物は宗教に関係あるものもないものも、その大きさだけから言っても侮りがたいものであった。",
+    "en": "Our ancient noble edifices, whether secular or ecclesiastical, were not to be despised even as regards their mere size.",
+    "para_break": false
+  },
+  {
+    "jp": "数世紀の間不幸な火災を免れて来たわずかの建築物は、今なおその装飾の壮大華麗によって、人に畏敬の念をおこさせる力がある。",
+    "en": "The few that have been spared in the disastrous conflagrations of centuries are still capable of aweing us by the grandeur and richness of their decoration.",
+    "para_break": false
+  },
+  {
+    "jp": "直径二尺から三尺、高さ三十尺から四十尺の巨柱は、複雑な腕木の網状細工によって、斜めの瓦屋根の重みにうなっている巨大な梁をささえていた。",
+    "en": "Huge pillars of wood from two to three feet in diameter and from thirty to forty feet high, supported, by a complicated network of brackets, the enormous beams which groaned under the weight of the tile-covered roofs.",
+    "para_break": false
+  },
+  {
+    "jp": "建築の材料や方法は、火に対しては弱いけれども地震には強いということがわかった。そしてわが国の気候によく適していた。",
+    "en": "The material and mode of construction, though weak against fire, proved itself strong against earthquakes, and was well suited to the climatic conditions of the country.",
+    "para_break": false
+  },
+  {
+    "jp": "法隆寺の金堂や薬師寺の塔は木造建築の耐久性を示す注目すべき実例である。",
+    "en": "In the Golden Hall of Horiuji and the Pagoda of Yakushiji, we have noteworthy examples of the durability of our wooden architecture.",
+    "para_break": false
+  },
+  {
+    "jp": "これらの建物は十二世紀の間事実上そのまま保全せられていた。",
+    "en": "These buildings have practically stood intact for nearly twelve centuries.",
+    "para_break": false
+  },
+  {
+    "jp": "古い宮殿や寺の内部は惜しげもなく装飾を施されていた。",
+    "en": "The interior of the old temples and palaces was profusely decorated.",
+    "para_break": false
+  },
+  {
+    "jp": "十世紀にできた宇治の鳳凰堂には今もなお昔の壁画彫刻の遺物はもとより、丹精をこらした天蓋、金を蒔き鏡や真珠をちりばめた廟蓋を見ることができる。",
+    "en": "In the Hoodo temple at Uji, dating from the tenth century, we can still see the elaborate canopy and gilded baldachinos, many-coloured and inlaid with mirrors and mother-of-pearl, as well as remains of the paintings and sculpture which formerly covered the walls.",
+    "para_break": false
+  },
+  {
+    "jp": "後になって、日光や京都二条の城においては、アラビア式またはムーア式華麗をつくした力作にも等しいような色彩の美や精巧をきわめたたくさんの装飾のために、建築構造の美が犠牲にせられているのを見る。",
+    "en": "Later, at Nikko and in the Nijo castle in Kyoto, we see structural beauty sacrificed to a wealth of ornamentation which in colour and exquisite detail equals the utmost gorgeousness of Arabian or Moorish effort.",
+    "para_break": false
+  },
+  {
+    "jp": "茶室の簡素清浄は禅院の競いからおこったものである。",
+    "en": "The simplicity and purism of the tea-room resulted from emulation of the Zen monastery.",
+    "para_break": true
+  },
+  {
+    "jp": "禅院は他の宗派のものと異なってただ僧の住所として作られている。",
+    "en": "A Zen monastery differs from those of other Buddhist sects inasmuch as it is meant only to be a dwelling place for the monks.",
+    "para_break": false
+  },
+  {
+    "jp": "その会堂は礼拝巡礼の場所ではなくて、禅修行者が会合して討論し黙想する道場である。",
+    "en": "Its chapel is not a place of worship or pilgrimage, but a college room where the students congregate for discussion and the practice of meditation.",
+    "para_break": false
+  },
+  {
+    "jp": "その室は、中央の壁の凹所、仏壇の後ろに禅宗の開祖菩提達磨の像か、または祖師迦葉と阿難陀をしたがえた釈迦牟尼の像があるのを除いてはなんの飾りもない。",
+    "en": "The room is bare except for a central alcove in which, behind the altar, is a statue of Bodhi Dharma, the founder of the sect, or of Sakyamuni attended by Kaphiapa and Ananda, the two earliest Zen patriarchs.",
+    "para_break": false
+  },
+  {
+    "jp": "仏壇には、これら聖者の禅に対する貢献を記念して香華がささげてある。",
+    "en": "On the altar, flowers and incense are offered up in the memory of the great contributions which these sages made to Zen.",
+    "para_break": false
+  },
+  {
+    "jp": "茶の湯の基をなしたものはほかではない、菩提達磨の像の前で同じ碗から次々に茶を喫むという禅僧たちの始めた儀式であったということはすでに述べたところである。",
+    "en": "We have already said that it was the ritual instituted by the Zen monks of successively drinking tea out of a bowl before the image of Bodhi Dharma, which laid the foundations of the tea-ceremony.",
+    "para_break": false
+  },
+  {
+    "jp": "が、さらにここに付言してよかろうと思われることは禅院の仏壇は、床の間――絵や花を置いて客を教化する日本間の上座――の原型であったということである。",
+    "en": "We might add here that the altar of the Zen chapel was the prototype of the Tokonoma,--the place of honour in a Japanese room where paintings and flowers are placed for the edification of the guests.",
+    "para_break": false
+  },
+  {
+    "jp": "わが国の偉い茶人は皆禅を修めた人であった。そして禅の精神を現実生活の中へ入れようと企てた。",
+    "en": "All our great tea-masters were students of Zen and attempted to introduce the spirit of Zennism into the actualities of life.",
+    "para_break": true
+  },
+  {
+    "jp": "こういうわけで茶室は茶の湯の他の設備と同様に禅の教義を多く反映している。",
+    "en": "Thus the room, like the other equipments of the tea-ceremony, reflects many of the Zen doctrines.",
+    "para_break": false
+  },
+  {
+    "jp": "正統の茶室の広さは四畳半で維摩の経文の一節によって定められている。",
+    "en": "The size of the orthodox tea-room, which is four mats and a half, or ten feet square, is determined by a passage in the Sutra of Vikramadytia.",
+    "para_break": false
+  },
+  {
+    "jp": "その興味ある著作において、馥柯羅摩訶秩多は文珠師利菩薩と八万四千の仏陀の弟子をこの狭い室に迎えている。",
+    "en": "In that interesting work, Vikramadytia welcomes the Saint Manjushiri and eighty-four thousand disciples of Buddha in a room of this size,",
+    "para_break": false
+  },
+  {
+    "jp": "これすなわち真に覚った者には一切皆空という理論に基づくたとえ話である。",
+    "en": "an allegory based on the theory of the non-existence of space to the truly enlightened.",
+    "para_break": false
+  },
+  {
+    "jp": "さらに待合から茶室に通ずる露地は黙想の第一階段、すなわち自己照明に達する通路を意味していた。",
+    "en": "Again the roji, the garden path which leads from the machiai to the tea-room, signified the first stage of meditation,--the passage into self-illumination.",
+    "para_break": false
+  },
+  {
+    "jp": "露地は外界との関係を断って、茶室そのものにおいて美的趣味を充分に味わう助けとなるように、新しい感情を起こすためのものであった。",
+    "en": "The roji was intended to break connection with the outside world, and produce a fresh sensation conducive to the full enjoyment of aestheticism in the tea-room itself.",
+    "para_break": false
+  },
+  {
+    "jp": "この庭径を踏んだことのある人は、常緑樹の薄明に、下には松葉の散りしくところを、調和ある不ぞろいな庭石の上を渡って、苔むした石燈籠のかたわらを過ぎる時、わが心のいかに高められたかを必ず思い出すであろう。",
+    "en": "One who has trodden this garden path cannot fail to remember how his spirit, as he walked in the twilight of evergreens over the regular irregularities of the stepping stones, beneath which lay dried pine needles, and passed beside the moss-covered granite lanterns, became uplifted above ordinary thoughts.",
+    "para_break": false
+  },
+  {
+    "jp": "たとえ都市のまん中にいてもなお、あたかも文明の雑踏や塵を離れた森の中にいるような感がする。",
+    "en": "One may be in the midst of a city, and yet feel as if he were in the forest far away from the dust and din of civilisation.",
+    "para_break": false
+  },
+  {
+    "jp": "こういう静寂純潔の効果を生ぜしめた茶人の巧みは実に偉いものであった。",
+    "en": "Great was the ingenuity displayed by the tea-masters in producing these effects of serenity and purity.",
+    "para_break": false
+  },
+  {
+    "jp": "露地を通り過ぎる時に起こすべき感情の性質は茶人によっていろいろ違っていた。",
+    "en": "The nature of the sensations to be aroused in passing through the roji differed with different tea-masters.",
+    "para_break": false
+  },
+  {
+    "jp": "利休のような人たちは全くの静寂を目的とし、露地を作るの奥意は次の古歌の中にこもっていると主張した。",
+    "en": "Some, like Rikiu, aimed at utter loneliness, and claimed the secret of making a roji was contained in the ancient ditty:",
+    "para_break": false
+  },
+  {
+    "jp": "見渡せば　花ももみじも　なかりけり　浦のとまやの　秋の夕暮れ",
+    "en": "\"I look beyond; Flowers are not, Nor tinted leaves. On the sea beach A solitary cottage stands In the waning light Of an autumn eve.\"",
+    "para_break": false
+  },
+  {
+    "jp": "その他小堀遠州のような人々はまた別の効果を求めた。",
+    "en": "Others, like Kobori-Enshiu, sought for a different effect.",
+    "para_break": true
+  },
+  {
+    "jp": "遠州は庭径の着想は次の句の中にあると言った。",
+    "en": "Enshiu said the idea of the garden path was to be found in the following verses:",
+    "para_break": false
+  },
+  {
+    "jp": "夕月夜　海すこしある　木の間かな",
+    "en": "\"A cluster of summer trees, A bit of the sea, A pale evening moon.\"",
+    "para_break": false
+  },
+  {
+    "jp": "彼の意味を推測するのは難くない。",
+    "en": "It is not difficult to gather his meaning.",
+    "para_break": false
+  },
+  {
+    "jp": "彼は、影のような過去の夢の中になおさまよいながらも、やわらかい霊光の無我の境地に浸って、渺茫たるかなたに横たわる自由をあこがれる新たに目ざめた心境をおこそうと思った。",
+    "en": "He wished to create the attitude of a newly awakened soul still lingering amid shadowy dreams of the past, yet bathing in the sweet unconsciousness of a mellow spiritual light, and yearning for the freedom that lay in the expanse beyond.",
+    "para_break": false
+  },
+  {
+    "jp": "こういう心持ちで客は黙々としてその聖堂に近づいて行く。",
+    "en": "Thus prepared the guest will silently approach the sanctuary,",
+    "para_break": true
+  },
+  {
+    "jp": "そしてもし武士ならばその剣を軒下の刀架にかけておく、茶室は至極平和の家であるから。",
+    "en": "and, if a samurai, will leave his sword on the rack beneath the eaves, the tea-room being preeminently the house of peace.",
+    "para_break": false
+  },
+  {
+    "jp": "それから客は低くかがんで、高さ三尺ぐらいの狭い入り口〔にじり口〕からにじってはいる。",
+    "en": "Then he will bend low and creep into the room through a small door not more than three feet in height.",
+    "para_break": false
+  },
+  {
+    "jp": "この動作は、身貴きも卑しきも同様にすべての客に負わされる義務であって、人に謙譲を教え込むためのものであった。",
+    "en": "This proceeding was incumbent on all guests,--high and low alike,--and was intended to inculcate humility.",
+    "para_break": false
+  },
+  {
+    "jp": "席次は待合で休んでいる間に定まっているので、客は一人ずつ静かにはいってその席につき、まず床の間の絵または生花に敬意を表する。",
+    "en": "The order of precedence having been mutually agreed upon while resting in the machiai, the guests one by one will enter noiselessly and take their seats, first making obeisance to the picture or flower arrangement on the tokonoma.",
+    "para_break": false
+  },
+  {
+    "jp": "主人は、客が皆着席して部屋が静まりきり、茶釜にたぎる湯の音を除いては、何一つ静けさを破るものもないようになって、始めてはいってくる。",
+    "en": "The host will not enter the room until all the guests have seated themselves and quiet reigns with nothing to break the silence save the note of the boiling water in the iron kettle.",
+    "para_break": false
+  },
+  {
+    "jp": "茶釜は美しい音をたてて鳴る。特殊のメロディーを出すように茶釜の底に鉄片が並べてあるから。",
+    "en": "The kettle sings well, for pieces of iron are so arranged in the bottom as to produce a peculiar melody",
+    "para_break": false
+  },
+  {
+    "jp": "これを聞けば、雲に包まれた滝の響きか岩に砕くる遠海の音か竹林を払う雨風か、それともどこか遠き丘の上の松籟かとも思われる。",
+    "en": "in which one may hear the echoes of a cataract muffled by clouds, of a distant sea breaking among the rocks, a rainstorm sweeping through a bamboo forest, or of the soughing of pines on some faraway hill.",
+    "para_break": false
+  },
+  {
+    "jp": "日中でも室内の光線は和らげられている。傾斜した屋根のある低いひさしは日光を少ししか入れないから。",
+    "en": "Even in the daytime the light in the room is subdued, for the low eaves of the slanting roof admit but few of the sun's rays.",
+    "para_break": true
+  },
+  {
+    "jp": "天井から床に至るまですべての物が落ち着いた色合いである。客みずからも注意して目立たぬ着物を選んでいる。",
+    "en": "Everything is sober in tint from the ceiling to the floor; the guests themselves have carefully chosen garments of unobtrusive colors.",
+    "para_break": false
+  },
+  {
+    "jp": "古めかしい和らかさがすべての物に行き渡っている。",
+    "en": "The mellowness of age is over all,",
+    "para_break": false
+  },
+  {
+    "jp": "ただ清浄無垢な白い新しい茶筅と麻ふきんが著しい対比をなしているのを除いては、新しく得られたらしい物はすべて厳禁せられている。",
+    "en": "everything suggestive of recent acquirement being tabooed save only the one note of contrast furnished by the bamboo dipper and the linen napkin, both immaculately white and new.",
+    "para_break": false
+  },
+  {
+    "jp": "茶室や茶道具がいかに色あせて見えてもすべての物が全く清潔である。",
+    "en": "However faded the tea-room and the tea-equipage may seem, everything is absolutely clean.",
+    "para_break": false
+  },
+  {
+    "jp": "部屋の最も暗いすみにさえ塵一本も見られない。もしあるようならばその主人は茶人とはいわれないのである。",
+    "en": "Not a particle of dust will be found in the darkest corner, for if any exists the host is not a tea-master.",
+    "para_break": false
+  },
+  {
+    "jp": "茶人に第一必要な条件の一は掃き、ふき清め、洗うことに関する知識である、払い清めるには術を要するから。",
+    "en": "One of the first requisites of a tea-master is the knowledge of how to sweep, clean, and wash, for there is an art in cleaning and dusting.",
+    "para_break": false
+  },
+  {
+    "jp": "金属細工はオランダの主婦のように無遠慮にやっきとなってはたいてはならない。",
+    "en": "A piece of antique metal work must not be attacked with the unscrupulous zeal of the Dutch housewife.",
+    "para_break": true
+  },
+  {
+    "jp": "花瓶からしたたる水はぬぐい去るを要しない、それは露を連想させ、涼味を覚えさせるから。",
+    "en": "Dripping water from a flower vase need not be wiped away, for it may be suggestive of dew and coolness.",
+    "para_break": false
+  },
+  {
+    "jp": "これに関連して、茶人たちのいだいていた清潔という考えをよく説明している利休についての話がある。",
+    "en": "In this connection there is a story of Rikiu which well illustrates the ideas of cleanliness entertained by the tea-masters.",
+    "para_break": true
+  },
+  {
+    "jp": "利休はその子紹安が露地を掃除し水をまくのを見ていた。",
+    "en": "Rikiu was watching his son Shoan as he swept and watered the garden path.",
+    "para_break": false
+  },
+  {
+    "jp": "紹安が掃除を終えた時利休は「まだ充分でない。」と言ってもう一度しなおすように命じた。",
+    "en": "\"Not clean enough,\" said Rikiu, when Shoan had finished his task, and bade him try again.",
+    "para_break": false
+  },
+  {
+    "jp": "いやいやながら一時間もかかってからむすこは父に向かって言った、「おとうさん、もう何もすることはありません。",
+    "en": "After a weary hour the son turned to Rikiu: \"Father, there is nothing more to be done.",
+    "para_break": false
+  },
+  {
+    "jp": "庭石は三度洗い石燈籠や庭木にはよく水をまき蘚苔は生き生きした緑色に輝いています。地面には小枝一本も木の葉一枚もありません。」",
+    "en": "The steps have been washed for the third time, the stone lanterns and the trees are well sprinkled with water, moss and lichens are shining with a fresh verdure; not a twig, not a leaf have I left on the ground.\"",
+    "para_break": false
+  },
+  {
+    "jp": "「ばか者、露地の掃除はそんなふうにするものではない。」と言ってその茶人はしかった。",
+    "en": "\"Young fool,\" chided the tea-master, \"that is not the way a garden path should be swept.\"",
+    "para_break": false
+  },
+  {
+    "jp": "こう言って利休は庭におり立ち一樹を揺すって、庭一面に秋の錦を片々と黄金、紅の木の葉を散りしかせた。",
+    "en": "Saying this, Rikiu stepped into the garden, shook a tree and scattered over the garden gold and crimson leaves, scraps of the brocade of autumn!",
+    "para_break": false
+  },
+  {
+    "jp": "利休の求めたものは清潔のみではなくて美と自然とであった。",
+    "en": "What Rikiu demanded was not cleanliness alone, but the beautiful and the natural also.",
+    "para_break": false
+  },
+  {
+    "jp": "「好き家」という名はある個人の芸術的要求にかなうように作られた建物という意味を含んでいる。",
+    "en": "The name, Abode of Fancy, implies a structure created to meet some individual artistic requirement.",
+    "para_break": true
+  },
+  {
+    "jp": "茶室は茶人のために作ったものであって茶人は茶室のためのものではない。",
+    "en": "The tea-room is made for the tea master, not the tea-master for the tea-room.",
+    "para_break": false
+  },
+  {
+    "jp": "それは子孫のために作ったのではないから暫定的である。",
+    "en": "It is not intended for posterity and is therefore ephemeral.",
+    "para_break": false
+  },
+  {
+    "jp": "人は各自独立の家を持つべきであるという考えは日本民族古来の習慣に基づいたもので、神道の迷信的習慣の定めによれば、いずれの家もその家長が死ぬと引き払うことになっている。",
+    "en": "The idea that everyone should have a house of his own is based on an ancient custom of the Japanese race, Shinto superstition ordaining that every dwelling should be evacuated on the death of its chief occupant.",
+    "para_break": false
+  },
+  {
+    "jp": "この習慣はたぶんあるわからない衛生上の理由もあってのことかもしれない。",
+    "en": "Perhaps there may have been some unrealized sanitary reason for this practice.",
+    "para_break": false
+  },
+  {
+    "jp": "また別に昔の習慣として新婚の夫婦には新築の家を与えるということもあった。",
+    "en": "Another early custom was that a newly built house should be provided for each couple that married.",
+    "para_break": false
+  },
+  {
+    "jp": "こういう習慣のために古代の皇居は非常にしばしば次から次へとうつされた。",
+    "en": "It is on account of such customs that we find the Imperial capitals so frequently removed from one site to another in ancient days.",
+    "para_break": false
+  },
+  {
+    "jp": "伊勢の大廟を二十年ごとに再築するのは古の儀式の今日なお行なわれている一例である。",
+    "en": "The rebuilding, every twenty years, of Ise Temple, the supreme shrine of the Sun-Goddess, is an example of one of these ancient rites which still obtain at the present day.",
+    "para_break": false
+  },
+  {
+    "jp": "こういう習慣を守るのは組み立て取りこわしの容易なわが国の木造建築のようなある建築様式においてのみ可能であった。",
+    "en": "The observance of these customs was only possible with some form of construction as that furnished by our system of wooden architecture, easily pulled down, easily built up.",
+    "para_break": false
+  },
+  {
+    "jp": "煉瓦石材を用いるやや永続的な様式は移動できないようにしたであろう、奈良朝以後シナの鞏固な重々しい木造建築を採用するに及んで実際移動不可能になったように。",
+    "en": "A more lasting style, employing brick and stone, would have rendered migrations impracticable, as indeed they became when the more stable and massive wooden construction of China was adopted by us after the Nara period.",
+    "para_break": false
+  },
+  {
+    "jp": "しかしながら十五世紀禅の個性主義が勢力を得るにつれて、その古い考えは茶室に連関して考えられ、これにある深い意味がしみこんで来た。",
+    "en": "With the predominance of Zen individualism in the fifteenth century, however, the old idea became imbued with a deeper significance as conceived in connection with the tea-room.",
+    "para_break": true
+  },
+  {
+    "jp": "禅は仏教の有為転変の説と精神が物質を支配すべきであるというその要求によって家をば身を入れるただ仮りの宿と認めた。",
+    "en": "Zennism, with the Buddhist theory of evanescence and its demands for the mastery of spirit over matter, recognized the house only as a temporary refuge for the body.",
+    "para_break": false
+  },
+  {
+    "jp": "その身とてもただ荒野にたてた仮りの小屋、あたりにはえた草を結んだか弱い雨露しのぎ――この草の結びが解ける時はまたもとの野原に立ちかえる。",
+    "en": "The body itself was but as a hut in the wilderness, a flimsy shelter made by tying together the grasses that grew around,--when these ceased to be bound together they again became resolved into the original waste.",
+    "para_break": false
+  },
+  {
+    "jp": "茶室において草ぶきの屋根、細い柱の弱々しさ、竹のささえの軽やかさ、さてはありふれた材料を用いて一見いかにも無頓着らしいところにも世の無常が感ぜられる。",
+    "en": "In the tea-room fugitiveness is suggested in the thatched roof, frailty in the slender pillars, lightness in the bamboo support, apparent carelessness in the use of commonplace materials.",
+    "para_break": false
+  },
+  {
+    "jp": "常住は、ただこの単純な四囲の事物の中に宿されていて風流の微光で物を美化する精神に存している。",
+    "en": "The eternal is to be found only in the spirit which, embodied in these simple surroundings, beautifies them with the subtle light of its refinement.",
+    "para_break": false
+  },
+  {
+    "jp": "茶室はある個人的趣味に適するように建てらるべきだということは、芸術における最も重要な原理を実行することである。",
+    "en": "That the tea-room should be built to suit some individual taste is an enforcement of the principle of vitality in art.",
+    "para_break": true
+  },
+  {
+    "jp": "芸術が充分に味わわれるためにはその同時代の生活に合っていなければならぬ。",
+    "en": "Art, to be fully appreciated, must be true to contemporaneous life.",
+    "para_break": false
+  },
+  {
+    "jp": "それは後世の要求を無視せよというのではなくて、現在をなおいっそう楽しむことを努むべきだというのである。",
+    "en": "It is not that we should ignore the claims of posterity, but that we should seek to enjoy the present more.",
+    "para_break": false
+  },
+  {
+    "jp": "また過去の創作物を無視せよというのではなくて、それをわれらの自覚の中に同化せよというのである。",
+    "en": "It is not that we should disregard the creations of the past, but that we should try to assimilate them into our consciousness.",
+    "para_break": false
+  },
+  {
+    "jp": "伝統や型式に屈従することは、建築に個性の表われるのを妨げるものである。",
+    "en": "Slavish conformity to traditions and formulas fetters the expression of individuality in architecture.",
+    "para_break": false
+  },
+  {
+    "jp": "現在日本に見るような洋式建築の無分別な模倣を見てはただ涙を注ぐほかはない。",
+    "en": "We can but weep over the senseless imitations of European buildings which one beholds in modern Japan.",
+    "para_break": false
+  },
+  {
+    "jp": "われわれは不思議に思う、最も進歩的な西洋諸国の間に何ゆえに建築がかくも斬新を欠いているのか、かくも古くさい様式の反復に満ちているのかと。",
+    "en": "We marvel why, among the most progressive Western nations, architecture should be so devoid of originality, so replete with repetitions of obsolete styles.",
+    "para_break": false
+  },
+  {
+    "jp": "たぶん今芸術の民本主義の時代を経過しつつ、一方にある君主らしい支配者が出現して新たな王朝をおこすのを待っているのであろう。",
+    "en": "Perhaps we are passing through an age of democritisation in art, while awaiting the rise of some princely master who shall establish a new dynasty.",
+    "para_break": false
+  },
+  {
+    "jp": "願わくは古人を憬慕することはいっそうせつに、かれらに模倣することはますます少なからんことを！",
+    "en": "Would that we loved the ancients more and copied them less!",
+    "para_break": false
+  },
+  {
+    "jp": "ギリシャ国民の偉大であったのは決して古物に求めなかったからであると伝えられている。",
+    "en": "It has been said that the Greeks were great because they never drew from the antique.",
+    "para_break": false
+  },
+  {
+    "jp": "「空き家」という言葉は道教の万物包涵の説を伝えるほかに、装飾精神の変化を絶えず必要とする考えを含んでいる。",
+    "en": "The term, Abode of Vacancy, besides conveying the Taoist theory of the all-containing, involves the conception of a continued need of change in decorative motives.",
+    "para_break": true
+  },
+  {
+    "jp": "茶室はただ暫時美的感情を満足さすためにおかれる物を除いては、全く空虚である。",
+    "en": "The tea-room is absolutely empty, except for what may be placed there temporarily to satisfy some aesthetic mood.",
+    "para_break": false
+  },
+  {
+    "jp": "何か特殊な美術品を臨時に持ち込む、そしてその他の物はすべて主調の美しさを増すように選択配合せられるのである。",
+    "en": "Some special art object is brought in for the occasion, and everything else is selected and arranged to enhance the beauty of the principal theme.",
+    "para_break": false
+  },
+  {
+    "jp": "人はいろいろな音楽を同時に聞くことはできぬ、美しいものの真の理解はただある中心点に注意を集中することによってのみできるのであるから。",
+    "en": "One cannot listen to different pieces of music at the same time, a real comprehension of the beautiful being possible only through concentration upon some central motive.",
+    "para_break": false
+  },
+  {
+    "jp": "かくのごとくわが茶室の装飾法は、現今西洋に行なわれている装飾法、すなわち屋内がしばしば博物館に変わっているような装飾法とは趣を異にしていることがわかるだろう。",
+    "en": "Thus it will be seen that the system of decoration in our tea-rooms is opposed to that which obtains in the West, where the interior of a house is often converted into a museum.",
+    "para_break": false
+  },
+  {
+    "jp": "装飾の単純、装飾法のしばしば変化するのになれている日本人の目には、絵画、彫刻、骨董品のおびただしい陳列で永久的に満たされている西洋の屋内は、単に俗な富を誇示しているに過ぎない感を与える。",
+    "en": "To a Japanese, accustomed to simplicity of ornamentation and frequent change of decorative method, a Western interior permanently filled with a vast array of pictures, statuary, and bric-a-brac gives the impression of mere vulgar display of riches.",
+    "para_break": false
+  },
+  {
+    "jp": "一個の傑作品でも絶えずながめて楽しむには多大の鑑賞力を要する。してみれば欧米の家庭にしばしば見るような色彩形状の混沌たる間に毎日毎日生きている人たちの風雅な心はさぞかし際限もなく深いものであろう。",
+    "en": "It calls for a mighty wealth of appreciation to enjoy the constant sight of even a masterpiece, and limitless indeed must be the capacity for artistic feeling in those who can exist day after day in the midst of such confusion of color and form as is to be often seen in the homes of Europe and America.",
+    "para_break": false
+  },
+  {
+    "jp": "「数寄屋」はわが装飾法の他の方面を連想させる。",
+    "en": "The \"Abode of the Unsymmetrical\" suggests another phase of our decorative scheme.",
+    "para_break": true
+  },
+  {
+    "jp": "日本の美術品が均斉を欠いていることは西洋批評家のしばしば述べたところである。",
+    "en": "The absence of symmetry in Japanese art objects has been often commented on by Western critics.",
+    "para_break": false
+  },
+  {
+    "jp": "これもまた禅を通じて道教の理想の現われた結果である。",
+    "en": "This, also, is a result of a working out through Zennism of Taoist ideals.",
+    "para_break": false
+  },
+  {
+    "jp": "儒教の根深い両元主義も、北方仏教の三尊崇拝も、決して均斉の表現に反対したものではなかった。",
+    "en": "Confucianism, with its deep-seated idea of dualism, and Northern Buddhism with its worship of a trinity, were in no way opposed to the expression of symmetry.",
+    "para_break": false
+  },
+  {
+    "jp": "実際、もしシナ古代の青銅器具または唐代および奈良時代の宗教的美術品を研究してみれば均斉を得るために不断の努力をしたことが認められるであろう。",
+    "en": "As a matter of fact, if we study the ancient bronzes of China or the religious arts of the Tang dynasty and the Nara period, we shall recognize a constant striving after symmetry.",
+    "para_break": false
+  },
+  {
+    "jp": "わが国の古典的屋内装飾はその配合が全く均斉を保っていた。",
+    "en": "The decoration of our classical interiors was decidedly regular in its arrangement.",
+    "para_break": false
+  },
+  {
+    "jp": "しかしながら道教や禅の「完全」という概念は別のものであった。",
+    "en": "The Taoist and Zen conception of perfection, however, was different.",
+    "para_break": false
+  },
+  {
+    "jp": "彼らの哲学の動的な性質は完全そのものよりも、完全を求むる手続きに重きをおいた。",
+    "en": "The dynamic nature of their philosophy laid more stress upon the process through which perfection was sought than upon perfection itself.",
+    "para_break": false
+  },
+  {
+    "jp": "真の美はただ「不完全」を心の中に完成する人によってのみ見いだされる。",
+    "en": "True beauty could be discovered only by one who mentally completed the incomplete.",
+    "para_break": false
+  },
+  {
+    "jp": "人生と芸術の力強いところはその発達の可能性に存した。",
+    "en": "The virility of life and art lay in its possibilities for growth.",
+    "para_break": false
+  },
+  {
+    "jp": "茶室においては、自己に関連して心の中に全効果を完成することが客各自に任されている。",
+    "en": "In the tea-room it is left for each guest in imagination to complete the total effect in relation to himself.",
+    "para_break": false
+  },
+  {
+    "jp": "禅の考え方が世間一般の思考形式となって以来、極東の美術は均斉ということは完成を表わすのみならず重複を表わすものとしてことさらに避けていた。",
+    "en": "Since Zennism has become the prevailing mode of thought, the art of the extreme Orient has purposefully avoided the symmetrical as expressing not only completion, but repetition.",
+    "para_break": false
+  },
+  {
+    "jp": "意匠の均等は想像の清新を全く破壊するものと考えられていた。",
+    "en": "Uniformity of design was considered fatal to the freshness of imagination.",
+    "para_break": false
+  },
+  {
+    "jp": "このゆえに人物よりも山水花鳥を画題として好んで用いるようになった。人物は見る人みずからの姿として現われているのであるから。",
+    "en": "Thus, landscapes, birds, and flowers became the favorite subjects for depiction rather than the human figure, the latter being present in the person of the beholder himself.",
+    "para_break": false
+  },
+  {
+    "jp": "実際われわれは往々あまりに自己をあらわし過ぎて困る、そしてわれわれは虚栄心があるにもかかわらず自愛さえも単調になりがちである。",
+    "en": "We are often too much in evidence as it is, and in spite of our vanity even self-regard is apt to become monotonous.",
+    "para_break": false
+  },
+  {
+    "jp": "茶室においては重複の恐れが絶えずある。",
+    "en": "In the tea-room the fear of repetition is a constant presence.",
+    "para_break": true
+  },
+  {
+    "jp": "室の装飾に用いる種々な物は色彩意匠の重複しないように選ばなければならぬ。",
+    "en": "The various objects for the decoration of a room should be so selected that no colour or design shall be repeated.",
+    "para_break": false
+  },
+  {
+    "jp": "生花があれば草花の絵は許されぬ。",
+    "en": "If you have a living flower, a painting of flowers is not allowable.",
+    "para_break": false
+  },
+  {
+    "jp": "丸い釜を用いれば水さしは角張っていなければならぬ。",
+    "en": "If you are using a round kettle, the water pitcher should be angular.",
+    "para_break": false
+  },
+  {
+    "jp": "黒釉薬の茶わんは黒塗りの茶入れとともに用いてはならぬ。",
+    "en": "A cup with a black glaze should not be associated with a tea-caddy of black laquer.",
+    "para_break": false
+  },
+  {
+    "jp": "香炉や花瓶を床の間にすえるにも、その場所を二等分してはならないから、ちょうどそのまん中に置かぬよう注意せねばならぬ。",
+    "en": "In placing a vase of an incense burner on the tokonoma, care should be taken not to put it in the exact centre, lest it divide the space into equal halves.",
+    "para_break": true
+  },
+  {
+    "jp": "少しでも室内の単調の気味を破るために、床の間の柱は他の柱とは異なった材木を用いねばならぬ。",
+    "en": "The pillar of the tokonoma should be of a different kind of wood from the other pillars, in order to break any suggestion of monotony in the room.",
+    "para_break": false
+  },
+  {
+    "jp": "この点においてもまた日本の室内装飾法は西洋の壁炉やその他の場所に物が均等に並べてある装飾法と異なっている。",
+    "en": "Here again the Japanese method of interior decoration differs from that of the Occident, where we see objects arrayed symmetrically on mantelpieces and elsewhere.",
+    "para_break": true
+  },
+  {
+    "jp": "西洋の家ではわれわれから見れば無用の重複と思われるものにしばしば出くわすことがある。",
+    "en": "In Western houses we are often confronted with what appears to us useless reiteration.",
+    "para_break": false
+  },
+  {
+    "jp": "背後からその人の全身像がじっとこちらを見ている人と対談するのはつらいことである。",
+    "en": "We find it trying to talk to a man while his full-length portrait stares at us from behind his back.",
+    "para_break": false
+  },
+  {
+    "jp": "肖像の人か、語っている人か、いずれが真のその人であろうかといぶかり、その一方はにせ物に違いないという妙な確信をいだいてくる。",
+    "en": "We wonder which is real, he of the picture or he who talks, and feel a curious conviction that one of them must be fraud.",
+    "para_break": false
+  },
+  {
+    "jp": "お祝いの饗宴に連なりながら食堂の壁に描かれたたくさんのものをつくづくながめて、ひそかに消化の傷害をおこしたことは幾度も幾度もある。",
+    "en": "Many a time have we sat at a festive board contemplating, with a secret shock to our digestion, the representation of abundance on the dining-room walls.",
+    "para_break": false
+  },
+  {
+    "jp": "何ゆえにこのような遊猟の獲物を描いたものや魚類果物の丹精こめた彫刻をおくのであるか。",
+    "en": "Why these pictured victims of chase and sport, the elaborate carvings of fishes and fruit?",
+    "para_break": false
+  },
+  {
+    "jp": "何ゆえに家伝の金銀食器を取り出して、かつてそれを用いて食事をし今はなき人を思い出させるのであるか。",
+    "en": "Why the display of family plates, reminding us of those who have dined and are dead?",
+    "para_break": false
+  },
+  {
+    "jp": "茶室は簡素にして俗を離れているから真に外界のわずらわしさを遠ざかった聖堂である。",
+    "en": "The simplicity of the tea-room and its freedom from vulgarity make it truly a sanctuary from the vexations of the outer world.",
+    "para_break": true
+  },
+  {
+    "jp": "ただ茶室においてのみ人は落ち着いて美の崇拝に身をささげることができる。",
+    "en": "There and there alone one can consecrate himself to undisturbed adoration of the beautiful.",
+    "para_break": false
+  },
+  {
+    "jp": "十六世紀日本の改造統一にあずかった政治家やたけき武士にとって茶室はありがたい休養所となった。",
+    "en": "In the sixteenth century the tea-room afforded a welcome respite from labour to the fierce warriors and statesmen engaged in the unification and reconstruction of Japan.",
+    "para_break": false
+  },
+  {
+    "jp": "十七世紀徳川治世のきびしい儀式固守主義の発達した後は、茶室は芸術的精神と自由に交通する唯一の機会を与えてくれた。",
+    "en": "In the seventeenth century, after the strict formalism of the Tokugawa rule had been developed, it offered the only opportunity possible for the free communion of artistic spirits.",
+    "para_break": false
+  },
+  {
+    "jp": "偉大なる芸術品の前には大名も武士も平民も差別はなかった。",
+    "en": "Before a great work of art there was no distinction between daimyo, samurai, and commoner.",
+    "para_break": false
+  },
+  {
+    "jp": "今日は工業主義のために真に風流を楽しむことは世界至るところますます困難になって行く。",
+    "en": "Nowadays industrialism is making true refinement more and more difficult all the world over.",
+    "para_break": false
+  },
+  {
+    "jp": "われわれは今までよりもいっそう茶室を必要とするのではなかろうか。",
+    "en": "Do we not need the tea-room more than ever?",
+    "para_break": false
+  }
+]
