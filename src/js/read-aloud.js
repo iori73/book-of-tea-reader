@@ -19,7 +19,10 @@
 
   function pickVoices() {
     const voices = speechSynthesis.getVoices();
-    jaVoice = voices.find((v) => v.lang && v.lang.startsWith("ja")) || null;
+    const jaVoices = voices.filter((v) => v.lang && v.lang.startsWith("ja"));
+    // Prefer "Kyoko" (the macOS voice used for the offline .m4a pipeline) for consistency;
+    // fall back to any other available Japanese voice on browsers/OSes without her.
+    jaVoice = jaVoices.find((v) => v.name.includes("Kyoko")) || jaVoices[0] || null;
     enVoice = voices.find((v) => v.lang && v.lang.startsWith("en")) || null;
   }
   pickVoices();
