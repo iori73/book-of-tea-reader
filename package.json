@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "node src/build.mjs",
-    "serve": "npm run build && python3 -m http.server 8080 --directory dist"
+    "serve": "npm run build && python3 -m http.server 8080 --directory dist",
+    "build:pages": "SITE_BASE_PATH=/book-of-tea-reader SITE_OUT_DIR=docs node src/build.mjs"
   }
 }

@@ -6,9 +6,14 @@ import { readFileSync, writeFileSync, mkdirSync, cpSync, readdirSync, rmSync } f
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
+// GitHub Pages project sites are served under /<repo-name>/, not at the domain root,
+// so every root-relative link needs this prefix. Local dev (npm run serve) leaves it
+// empty since http.server serves dist/ directly at the root.
+const BASE = process.env.SITE_BASE_PATH ?? "";
+
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const DATA_DIR = path.join(ROOT, "data", "chunks");
-const DIST = path.join(ROOT, "dist");
+const DIST = path.join(ROOT, process.env.SITE_OUT_DIR || "dist");
 const STYLES_DIR = path.join(ROOT, "src", "styles");
 const PUBLIC_DIR = path.join(ROOT, "public");
 const JS_DIR = path.join(ROOT, "src", "js");
@@ -53,10 +58,10 @@ function pageShell({ title, description, bodyClass, headExtra, body }) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
-<link rel="icon" href="/favicon.svg">
-<link rel="stylesheet" href="/styles/tokens.css">
-<link rel="stylesheet" href="/styles/base.css">
-<link rel="stylesheet" href="/styles/reader.css">
+<link rel="icon" href="${BASE}/favicon.svg">
+<link rel="stylesheet" href="${BASE}/styles/tokens.css">
+<link rel="stylesheet" href="${BASE}/styles/base.css">
+<link rel="stylesheet" href="${BASE}/styles/reader.css">
 ${headExtra ?? ""}
 </head>
 <body class="${bodyClass ?? ""}">
@@ -81,7 +86,7 @@ function buildIndex() {
   const rows = chapters
     .map((c) => {
       return `
-      <a class="chapter-row" href="/chapters/${c.slug}.html">
+      <a class="chapter-row" href="${BASE}/chapters/${c.slug}.html">
         <span class="num">${String(c.num).padStart(2, "0")}</span>
         ${iconImg(c.icon, "icon")}
         <span class="titles">
@@ -152,14 +157,14 @@ function buildChapter(c, prev, next) {
     .join("\n");
 
   const prevLink = prev
-    ? `<a href="/chapters/${prev.slug}.html"><span class="label">前の章</span>${esc(prev.en_title)}</a>`
-    : `<a href="/index.html"><span class="label">戻る</span>目次</a>`;
+    ? `<a href="${BASE}/chapters/${prev.slug}.html"><span class="label">前の章</span>${esc(prev.en_title)}</a>`
+    : `<a href="${BASE}/index.html"><span class="label">戻る</span>目次</a>`;
   const nextLink = next
-    ? `<a class="next" href="/chapters/${next.slug}.html"><span class="label">次の章</span>${esc(next.en_title)}</a>`
-    : `<a class="next" href="/index.html"><span class="label">読了</span>目次に戻る</a>`;
+    ? `<a class="next" href="${BASE}/chapters/${next.slug}.html"><span class="label">次の章</span>${esc(next.en_title)}</a>`
+    : `<a class="next" href="${BASE}/index.html"><span class="label">読了</span>目次に戻る</a>`;
 
   const body = `
-<nav class="topnav"><a href="/index.html">← The Book of Tea 目次</a></nav>
+<nav class="topnav"><a href="${BASE}/index.html">← The Book of Tea 目次</a></nav>
 <div class="wrap">
   <div class="chapter-head">
     <div class="num">CHAPTER ${String(c.num).padStart(2, "0")}</div>
@@ -182,8 +187,12 @@ function buildChapter(c, prev, next) {
     ${nextLink}
   </div>
 </div>
-<script>window.__CHAPTER_CHUNKS__ = ${JSON.stringify(chunks)};</script>
-<script src="/js/read-aloud.js" defer></script>`;
+<script>
+  window.__CHAPTER_CHUNKS__ = ${JSON.stringify(chunks)};
+  window.__CHAPTER_SLUG__ = ${JSON.stringify(c.slug)};
+</script>
+<script src="${BASE}/js/reading-progress.js" defer></script>
+<script src="${BASE}/js/read-aloud.js" defer></script>`;
 
   writeFileSync(
     path.join(DIST, "chapters", `${c.slug}.html`),

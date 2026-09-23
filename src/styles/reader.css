@@ -83,15 +83,15 @@
 .chunk .jp {
   display: block;
   font-family: var(--font-serif-jp);
-  font-size: 14.5px;
+  font-size: 16px;
   color: var(--ink-soft);
   line-height: 1.9;
-  margin: 0 0 2px;
+  margin: 0 0 3px;
 }
 .chunk .en {
   display: block;
   font-family: var(--font-serif-en);
-  font-size: 17.5px;
+  font-size: 19px;
   color: var(--ink);
   line-height: 1.75;
   text-align: justify;
@@ -150,3 +150,36 @@
 @media (max-width: 480px) {
   .chapter-row .meta { display: none; }
 }
+
+/* --- 読書位置の復帰バナー --- */
+.resume-banner {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, 12px);
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--ink);
+  color: var(--paper);
+  font-family: var(--font-sans-jp);
+  font-size: 13px;
+  padding: 10px 14px;
+  border-radius: var(--radius);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  z-index: 10;
+}
+.resume-banner.show { opacity: 1; transform: translate(-50%, 0); }
+.resume-banner button {
+  font: inherit;
+  font-size: 12px;
+  color: var(--paper);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: var(--radius);
+  padding: 4px 9px;
+  cursor: pointer;
+}
+.resume-banner button:hover { border-color: #fff; }

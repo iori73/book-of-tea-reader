@@ -12,7 +12,16 @@
   const pauseBtn = document.getElementById("ra-pause");
   const rateInput = document.getElementById("ra-rate");
 
+  // Resume from the reading-progress bookmark (reading-progress.js) if one exists,
+  // so pressing play continues near where the reader left off instead of restarting.
   let currentIndex = 1; // index 0 is the chapter title, skip it
+  try {
+    const raw = window.__CHAPTER_SLUG__ && localStorage.getItem("book-of-tea:progress:" + window.__CHAPTER_SLUG__);
+    const saved = raw && JSON.parse(raw);
+    if (saved && saved.chunkIndex > 1) currentIndex = saved.chunkIndex;
+  } catch (_) {
+    // ignore — just starts from the top
+  }
   let shouldContinue = false;
   let jaVoice = null;
   let enVoice = null;
