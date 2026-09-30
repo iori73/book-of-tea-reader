@@ -15,14 +15,17 @@ reaching for a dictionary on the English original.
 ## 出典・ライセンス (Sources & License)
 
 - 英語原文 (English text): Kakuzo Okakura, *The Book of Tea* (1906) — 著作権保護期間満了
-  (published 1906, author died 1913; public domain). Global Grey / Project Gutenberg 版を使用
+(published 1906, author died 1913; public domain). Global Grey / Project Gutenberg 版を使用
 - 日本語訳 (Japanese translation): 村岡博訳 — 著作権保護期間満了、青空文庫収録版を使用
-  (public domain; via Aozora Bunko)
+(public domain; via Aozora Bunko)
 - 音声 (Audio): Google Cloud Text-to-Speech による合成音声。公開・再配布が利用規約で
-  許可されたサービスを使用 (Synthesized with Google Cloud Text-to-Speech; output licensed
-  for public redistribution)
-- 制作・編集 (Production): 河野いおり (Iori Kawano)
+許可されたサービスを使用 (Synthesized with Google Cloud Text-to-Speech; output licensed
+for public redistribution)
+- 制作・編集 (Production): iori
+
+
 
 ## 関連リンク
 
-- 読書サイト (bilingual reading site, with resume + in-browser read-aloud): https://iori73.github.io/book-of-tea-reader/
+- 読書サイト (bilingual reading site, with resume + in-browser read-aloud): [https://iori73.github.io/book-of-tea-reader/](https://iori73.github.io/book-of-tea-reader/)
+

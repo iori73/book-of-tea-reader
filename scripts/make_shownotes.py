@@ -113,7 +113,7 @@ def main():
 
 英語原文: Kakuzo Okakura, *The Book of Tea* (1906, public domain)。日本語訳: 村岡博訳
 (青空文庫、public domain)。音声: Google Cloud Text-to-Speech(公開・再配布が利用規約で許可
-されたサービス)。制作: 河野いおり。
+されたサービス)。制作: iori。
 
 読書サイト(対訳・読み上げ付き): https://iori73.github.io/book-of-tea-reader/chapters/{slug}.html
 """
