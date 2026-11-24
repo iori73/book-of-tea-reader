@@ -1,0 +1,13 @@
+{
+  "id": "book-of-tea",
+  "title_en": "The Book of Tea",
+  "title_jp": "茶の本",
+  "author_en": "Kakuzo Okakura",
+  "author_jp": "岡倉覚三",
+  "byline": "岡倉覚三 (Kakuzo Okakura) — 村岡博訳 / English original, 1906",
+  "hero_icon": "01-bowl.svg",
+  "chapter_label": "chapter",
+  "title_separator": " — ",
+  "description": "岡倉覚三「茶の本」を日本語→英語の対訳で読む",
+  "credit": "英語原文: Global Grey 版 (1906年刊、パブリックドメイン)。日本語訳: 村岡博 (青空文庫、パブリックドメイン)。日本語→英語の対訳チャンクで交互に読めるよう構成しています。"
+}
