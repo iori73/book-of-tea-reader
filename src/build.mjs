@@ -90,6 +90,8 @@ const I = {
   arrowDown: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg>',
   check: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
   chevron: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>',
+  // book.fill–like: two pages, filled
+  book: '<svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M3 5.4c0-.6.4-1 1-1.1 2.6-.4 5 .1 7.2 1.5v13.6c-2.2-1.3-4.6-1.8-7.2-1.5-.6.1-1-.4-1-1V5.4zm18 0c0-.6-.4-1-1-1.1-2.6-.4-5 .1-7.2 1.5v13.6c2.2-1.3 4.6-1.8 7.2-1.5.6.1 1-.4 1-1V5.4z"/></svg>',
 };
 
 const rawIconCache = new Map();
@@ -247,21 +249,28 @@ function buildIndex() {
     )
     .join("\n");
 
+  const cover = BOOK.cover_image
+    ? `<img class="book-cover-img" src="${BASE}/images/${esc(BOOK.cover_image)}" alt="${esc(BOOK.title_jp)} の表紙" width="800" height="800">`
+    : `<div class="book-cover" aria-hidden="true">${bookIcon(heroIcon, "book-cover-icon")}</div>`;
+
   const body = `
 ${appBar({ title: BOOK.title_jp })}
 <main class="home">
   <section class="book-hero">
-    <div class="book-cover" aria-hidden="true">${bookIcon(heroIcon, "book-cover-icon")}</div>
+    ${cover}
     <div class="book-info">
       <p class="eyebrow">バイリンガル読書 · 日本語 → English</p>
       <h1 class="book-title-jp">${esc(BOOK.title_jp)}</h1>
       <p class="book-title-en">${esc(BOOK.title_en)}</p>
       <p class="book-byline">${esc(BOOK.byline)}</p>
       <p class="book-meta">${chapters.length}章 · 約${totalMin}分 · 読み上げ付き</p>
-      <a class="btn-primary" id="continue-btn" href="${first.href}">
-        <span class="btn-primary-label">読みはじめる</span>
-        <span class="btn-primary-sub">${esc(first.label)} · ${esc(first.jp)}</span>
-      </a>
+      <div class="cta">
+        <a class="btn-capsule" id="continue-btn" href="${first.href}">${I.book}<span class="btn-capsule-label">読みはじめる</span></a>
+        <div class="cta-meta" id="continue-meta">
+          <span class="cta-chapter">${esc(first.jp)}</span>
+          <span class="cta-progress" hidden><span class="mini-track"><span class="mini-fill"></span></span><span class="cta-pct"></span></span>
+        </div>
+      </div>
     </div>
   </section>
 

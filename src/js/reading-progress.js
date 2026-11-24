@@ -119,9 +119,16 @@
     }
     if (target) {
       btn.href = target.ch.href;
-      btn.querySelector(".btn-primary-label").textContent = "続きから読む";
-      btn.querySelector(".btn-primary-sub").textContent =
-        `${target.ch.label} · ${target.ch.jp}` + (target.pct ? ` · ${Math.round(target.pct * 100)}%` : "");
+      btn.querySelector(".btn-capsule-label").textContent = target.pct ? "続きから読む" : "次の章を読む";
+      const meta = document.getElementById("continue-meta");
+      meta.querySelector(".cta-chapter").textContent = target.ch.jp;
+      if (target.pct) {
+        const pct = Math.round(target.pct * 100);
+        const prog = meta.querySelector(".cta-progress");
+        prog.hidden = false;
+        prog.querySelector(".mini-fill").style.width = pct + "%";
+        prog.querySelector(".cta-pct").textContent = pct + "%";
+      }
     }
   }
 

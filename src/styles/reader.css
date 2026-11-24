@@ -9,8 +9,8 @@
 
 .book-hero {
   display: grid;
-  grid-template-columns: 168px 1fr;
-  gap: 32px;
+  grid-template-columns: 220px 1fr;
+  gap: 40px;
   align-items: center;
   padding: 28px 0 40px;
 }
@@ -53,31 +53,72 @@
 .book-byline { margin: 16px 0 0; font-size: var(--ui-subhead); color: var(--ink-2); }
 .book-meta { margin: 4px 0 0; font-size: var(--ui-footnote); color: var(--ink-3); }
 
-.btn-primary {
+/* cover artwork (podcast episode cover): square, Apple Podcasts–style artwork shadow */
+.book-cover-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: 12px;
+  box-shadow: 0 22px 44px -18px rgba(0, 0, 0, .4), 0 2px 8px rgba(0, 0, 0, .08), 0 0 0 .5px var(--line);
+}
+
+/* primary action: one-line capsule (Apple Books "Read" / Podcasts "Resume") */
+.cta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 26px;
+}
+.btn-capsule {
   display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 1px;
-  margin-top: 22px;
-  min-width: 240px;
-  max-width: 100%;
-  padding: 12px 22px;
-  border-radius: var(--radius-m);
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 50px;
+  padding: 0 28px 0 22px;
+  border-radius: var(--radius-pill);
   background: var(--accent);
   color: var(--accent-ink);
-  transition: transform 120ms var(--ease), filter 120ms;
+  font-size: var(--ui-body);
+  font-weight: 600;
+  letter-spacing: -.01em;
+  white-space: nowrap;
+  flex: none;
+  transition: transform 160ms var(--ease), filter 160ms;
 }
-.btn-primary:hover { filter: brightness(1.08); }
-.btn-primary:active { transform: scale(.98); }
-.btn-primary-label { font-size: var(--ui-body); font-weight: 600; }
-.btn-primary-sub {
-  max-width: 100%;
+.btn-capsule svg { width: 20px; height: 20px; }
+.btn-capsule:hover { filter: brightness(1.1); }
+.btn-capsule:active { transform: scale(.97); }
+.cta-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+.cta-chapter {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  font-size: var(--ui-footnote);
-  opacity: .82;
+  font-size: var(--ui-subhead);
+  color: var(--ink-2);
 }
+.cta-progress {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: var(--ui-footnote);
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+.mini-track {
+  width: 72px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--fill);
+  overflow: hidden;
+}
+.mini-fill { display: block; height: 100%; width: 0; border-radius: 2px; background: var(--accent); }
 
 .section-title {
   margin: 0 0 8px;
@@ -160,7 +201,12 @@
 @media (max-width: 600px) {
   .book-hero { grid-template-columns: 1fr; gap: 24px; padding-top: 16px; text-align: left; }
   .book-cover { width: 132px; }
-  .btn-primary { display: flex; width: 100%; }
+  .book-hero { justify-items: center; text-align: center; }
+  .book-cover-img { width: 200px; }
+  .book-cover { width: 150px; }
+  .cta { flex-direction: column; align-items: stretch; gap: 10px; }
+  .btn-capsule { width: 100%; height: 52px; }
+  .cta-meta { align-items: center; text-align: center; }
   .chapter-row { grid-template-columns: 26px minmax(0, 1fr) auto; }
   .chapter-row .chevron { display: none; }
 }
