@@ -1,147 +1,237 @@
 <!doctype html>
-<html lang="ja">
+<html lang="ja" data-theme="auto" data-show="both" data-layout="stack">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>The Book of Tea 茶の本 — バイリンガル読書</title>
 <meta name="description" content="岡倉覚三「茶の本」を日本語→英語の対訳で読む">
+<meta name="theme-color" content="#FBFAF7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121314" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="/book-of-tea-reader/favicon.svg">
+<script>(function(){try{var s=JSON.parse(localStorage.getItem("bilingual-reader:settings")||"{}"),d=document.documentElement,z=[.88,.94,1,1.08,1.18];d.dataset.theme=s.theme||"auto";d.dataset.show=s.show||"both";d.dataset.layout=s.layout||"stack";d.style.setProperty("--scale",z[s.size==null?2:s.size]||1);}catch(e){}})();</script>
 <link rel="stylesheet" href="/book-of-tea-reader/styles/tokens.css">
 <link rel="stylesheet" href="/book-of-tea-reader/styles/base.css">
 <link rel="stylesheet" href="/book-of-tea-reader/styles/reader.css">
-
 </head>
-<body class="">
+<body class="page-home">
 
-<div class="hero grain">
-  <div class="hero-inner">
-    <svg class="hero-icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <path d="M10 26h44c0 14-9.5 24-22 24S10 40 10 26Z" fill="currentColor"/>
-  <ellipse cx="32" cy="26" rx="22" ry="6" fill="currentColor" opacity="0.55"/>
-  <path d="M22 26c1.5-3 4-5 10-5s8.5 2 10 5" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity="0.85"/>
-</svg>
-
-    <h1>The Book of Tea</h1>
-    <p class="jp-title">茶の本</p>
-    <p class="byline">岡倉覚三 (Kakuzo Okakura) — 村岡博訳 / English original, 1906</p>
+<header class="appbar" id="appbar">
+  <div class="appbar-inner">
+    <span class="appbar-spacer"></span>
+    <div class="appbar-title" aria-hidden="true">茶の本</div>
+    <div class="appbar-actions">
+      
+      <button type="button" class="icon-btn" data-open="sheet-settings" aria-label="表示の設定"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 19l5-13 5 13M4.4 14.5h6.2"/><path d="M14 19l3.5-8.5L21 19M15.2 16h4.6"/></svg></button>
+    </div>
   </div>
-</div>
-<div class="wrap">
-  <ul class="chapter-list">
-    
-      <a class="chapter-row" href="/book-of-tea-reader/chapters/01_cup_of_humanity.html">
-        <span class="num">01</span>
-        <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <path d="M10 26h44c0 14-9.5 24-22 24S10 40 10 26Z" fill="currentColor"/>
-  <ellipse cx="32" cy="26" rx="22" ry="6" fill="currentColor" opacity="0.55"/>
-  <path d="M22 26c1.5-3 4-5 10-5s8.5 2 10 5" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity="0.85"/>
-</svg>
+</header>
+<main class="home">
+  <section class="book-hero">
+    <img class="book-cover-img" src="/book-of-tea-reader/images/cover.webp" alt="茶の本 の表紙" width="800" height="800">
+    <div class="book-info">
+      <p class="eyebrow">バイリンガル読書 · 日本語 → English</p>
+      <h1 class="book-title-jp">茶の本</h1>
+      <p class="book-title-en">The Book of Tea</p>
+      <p class="book-byline">岡倉覚三 (Kakuzo Okakura) — 村岡博訳 / English original, 1906</p>
+      <p class="book-meta">7章 · 約90分 · 読み上げ付き</p>
+      <div class="cta">
+        <a class="btn-capsule" id="continue-btn" href="/book-of-tea-reader/chapters/01_cup_of_humanity.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="fill" d="M3 5.4c0-.6.4-1 1-1.1 2.6-.4 5 .1 7.2 1.5v13.6c-2.2-1.3-4.6-1.8-7.2-1.5-.6.1-1-.4-1-1V5.4zm18 0c0-.6-.4-1-1-1.1-2.6-.4-5 .1-7.2 1.5v13.6c2.2-1.3 4.6-1.8 7.2-1.5.6.1 1-.4 1-1V5.4z"/></svg><span class="btn-capsule-label">読みはじめる</span></a>
+        <div class="cta-meta" id="continue-meta">
+          <span class="cta-chapter">第一章　人情の碗</span>
+          <span class="cta-progress" hidden><span class="mini-track"><span class="mini-fill"></span></span><span class="cta-pct"></span></span>
+        </div>
+      </div>
+    </div>
+  </section>
 
-        <span class="titles">
-          <span class="en-title">I. The Cup of Humanity</span>
-          <span class="jp-title">第一章　人情の碗</span>
-        </span>
-        <span class="meta">12 min</span>
-      </a>
+  <section class="contents" aria-labelledby="contents-title">
+    <h2 class="section-title" id="contents-title">目次</h2>
+    <ol class="chapter-list">
+      <li><a class="chapter-row" href="/book-of-tea-reader/chapters/01_cup_of_humanity.html" data-slug="01_cup_of_humanity">
+      <span class="chapter-num">01</span>
+      <span class="chapter-titles">
+        <span class="chapter-jp">第一章　人情の碗</span>
+        <span class="chapter-en">I. The Cup of Humanity</span>
+        <span class="progress-track" hidden><span class="progress-fill"></span></span>
+      </span>
+      <span class="chapter-meta"><span class="chapter-min">12分</span><span class="chapter-state"></span></span>
+      <span class="chevron" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></span>
+    </a></li>
+<li><a class="chapter-row" href="/book-of-tea-reader/chapters/02_schools_of_tea.html" data-slug="02_schools_of_tea">
+      <span class="chapter-num">02</span>
+      <span class="chapter-titles">
+        <span class="chapter-jp">第二章　茶の諸流</span>
+        <span class="chapter-en">II. The Schools of Tea</span>
+        <span class="progress-track" hidden><span class="progress-fill"></span></span>
+      </span>
+      <span class="chapter-meta"><span class="chapter-min">13分</span><span class="chapter-state"></span></span>
+      <span class="chevron" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></span>
+    </a></li>
+<li><a class="chapter-row" href="/book-of-tea-reader/chapters/03_taoism_and_zennism.html" data-slug="03_taoism_and_zennism">
+      <span class="chapter-num">03</span>
+      <span class="chapter-titles">
+        <span class="chapter-jp">第三章　道教と禅道</span>
+        <span class="chapter-en">III. Taoism and Zennism</span>
+        <span class="progress-track" hidden><span class="progress-fill"></span></span>
+      </span>
+      <span class="chapter-meta"><span class="chapter-min">15分</span><span class="chapter-state"></span></span>
+      <span class="chevron" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></span>
+    </a></li>
+<li><a class="chapter-row" href="/book-of-tea-reader/chapters/04_the_tea_room.html" data-slug="04_the_tea_room">
+      <span class="chapter-num">04</span>
+      <span class="chapter-titles">
+        <span class="chapter-jp">第四章　茶室</span>
+        <span class="chapter-en">IV. The Tea-Room</span>
+        <span class="progress-track" hidden><span class="progress-fill"></span></span>
+      </span>
+      <span class="chapter-meta"><span class="chapter-min">17分</span><span class="chapter-state"></span></span>
+      <span class="chevron" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></span>
+    </a></li>
+<li><a class="chapter-row" href="/book-of-tea-reader/chapters/05_art_appreciation.html" data-slug="05_art_appreciation">
+      <span class="chapter-num">05</span>
+      <span class="chapter-titles">
+        <span class="chapter-jp">第五章　芸術鑑賞</span>
+        <span class="chapter-en">V. Art Appreciation</span>
+        <span class="progress-track" hidden><span class="progress-fill"></span></span>
+      </span>
+      <span class="chapter-meta"><span class="chapter-min">11分</span><span class="chapter-state"></span></span>
+      <span class="chevron" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></span>
+    </a></li>
+<li><a class="chapter-row" href="/book-of-tea-reader/chapters/06_flowers.html" data-slug="06_flowers">
+      <span class="chapter-num">06</span>
+      <span class="chapter-titles">
+        <span class="chapter-jp">第六章　花</span>
+        <span class="chapter-en">VI. Flowers</span>
+        <span class="progress-track" hidden><span class="progress-fill"></span></span>
+      </span>
+      <span class="chapter-meta"><span class="chapter-min">16分</span><span class="chapter-state"></span></span>
+      <span class="chevron" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></span>
+    </a></li>
+<li><a class="chapter-row" href="/book-of-tea-reader/chapters/07_tea_masters.html" data-slug="07_tea_masters">
+      <span class="chapter-num">07</span>
+      <span class="chapter-titles">
+        <span class="chapter-jp">第七章　茶の宗匠</span>
+        <span class="chapter-en">VII. Tea-Masters</span>
+        <span class="progress-track" hidden><span class="progress-fill"></span></span>
+      </span>
+      <span class="chapter-meta"><span class="chapter-min">6分</span><span class="chapter-state"></span></span>
+      <span class="chevron" aria-hidden="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></span>
+    </a></li>
+    </ol>
+  </section>
 
-      <a class="chapter-row" href="/book-of-tea-reader/chapters/02_schools_of_tea.html">
-        <span class="num">02</span>
-        <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <path d="M18 40c0-12 6-20 14-24 2 10-2 18-14 24Z" fill="currentColor" opacity="0.55"/>
-  <path d="M32 42c0-13 6.5-22 15-26 2 11-2 20-15 26Z" fill="currentColor" opacity="0.75"/>
-  <path d="M24 44c2-14 9-23 18-27 3 12-2 22-18 27Z" fill="currentColor"/>
-</svg>
-
-        <span class="titles">
-          <span class="en-title">II. The Schools of Tea</span>
-          <span class="jp-title">第二章　茶の諸流</span>
-        </span>
-        <span class="meta">13 min</span>
-      </a>
-
-      <a class="chapter-row" href="/book-of-tea-reader/chapters/03_taoism_and_zennism.html">
-        <span class="num">03</span>
-        <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <path d="M50 20a20 20 0 1 1 -8-8" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
-</svg>
-
-        <span class="titles">
-          <span class="en-title">III. Taoism and Zennism</span>
-          <span class="jp-title">第三章　道教と禅道</span>
-        </span>
-        <span class="meta">15 min</span>
-      </a>
-
-      <a class="chapter-row" href="/book-of-tea-reader/chapters/04_the_tea_room.html">
-        <span class="num">04</span>
-        <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <rect x="10" y="10" width="44" height="44" rx="1" stroke="currentColor" stroke-width="3"/>
-  <path d="M10 32h44M32 10v44" stroke="currentColor" stroke-width="2.5"/>
-  <path d="M10 21h44M10 43h44M21 10v44M43 10v44" stroke="currentColor" stroke-width="1.4" opacity="0.55"/>
-</svg>
-
-        <span class="titles">
-          <span class="en-title">IV. The Tea-Room</span>
-          <span class="jp-title">第四章　茶室</span>
-        </span>
-        <span class="meta">17 min</span>
-      </a>
-
-      <a class="chapter-row" href="/book-of-tea-reader/chapters/05_art_appreciation.html">
-        <span class="num">05</span>
-        <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <rect x="24" y="6" width="16" height="6" rx="3" fill="currentColor"/>
-  <rect x="26" y="12" width="12" height="40" fill="currentColor" opacity="0.85"/>
-  <rect x="24" y="52" width="16" height="6" rx="3" fill="currentColor"/>
-</svg>
-
-        <span class="titles">
-          <span class="en-title">V. Art Appreciation</span>
-          <span class="jp-title">第五章　芸術鑑賞</span>
-        </span>
-        <span class="meta">11 min</span>
-      </a>
-
-      <a class="chapter-row" href="/book-of-tea-reader/chapters/06_flowers.html">
-        <span class="num">06</span>
-        <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <path d="M32 40V58" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
-  <g fill="currentColor">
-    <ellipse cx="32" cy="20" rx="7" ry="11"/>
-    <ellipse cx="32" cy="20" rx="7" ry="11" transform="rotate(72 32 20)"/>
-    <ellipse cx="32" cy="20" rx="7" ry="11" transform="rotate(144 32 20)"/>
-    <ellipse cx="32" cy="20" rx="7" ry="11" transform="rotate(216 32 20)"/>
-    <ellipse cx="32" cy="20" rx="7" ry="11" transform="rotate(288 32 20)"/>
-  </g>
-  <circle cx="32" cy="20" r="4" fill="#fff" opacity="0.9"/>
-</svg>
-
-        <span class="titles">
-          <span class="en-title">VI. Flowers</span>
-          <span class="jp-title">第六章　花</span>
-        </span>
-        <span class="meta">16 min</span>
-      </a>
-
-      <a class="chapter-row" href="/book-of-tea-reader/chapters/07_tea_masters.html">
-        <span class="num">07</span>
-        <svg class="icon" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
-  <rect x="27" y="36" width="10" height="20" rx="4" fill="currentColor"/>
-  <path d="M28 36C20 30 16 20 20 8M31 36C27 28 26 16 30 6M34 36C34 26 36 16 32 6M37 36C40 28 42 18 40 8M39 36C46 30 48 20 44 10"
-    stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.85"/>
-</svg>
-
-        <span class="titles">
-          <span class="en-title">VII. Tea-Masters</span>
-          <span class="jp-title">第七章　茶の宗匠</span>
-        </span>
-        <span class="meta">6 min</span>
-      </a>
-  </ul>
   <footer class="site-footer">
-    <p>英語原文: Global Grey 版 (1906年刊、パブリックドメイン)。日本語訳: 村岡博 (青空文庫、パブリックドメイン)。
-    日本語→英語の対訳チャンクで交互に読めるよう構成しています。</p>
+    <p>英語原文: Global Grey 版 (1906年刊、パブリックドメイン)。日本語訳: 村岡博 (青空文庫、パブリックドメイン)。日本語→英語の対訳チャンクで交互に読めるよう構成しています。</p>
+    <p>読み上げは、お使いの端末の音声で再生します。声の種類と質は端末によって変わります。</p>
   </footer>
-</div>
+</main>
+<dialog class="sheet" id="sheet-settings" aria-labelledby="sheet-settings-title">
+  <div class="sheet-grabber" aria-hidden="true"></div>
+  <header class="sheet-head">
+    <h2 id="sheet-settings-title">表示</h2>
+    <button type="button" class="icon-btn" data-close aria-label="閉じる"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </header>
+  <div class="sheet-body">
+    <div class="field">
+    <div class="field-label" id="lbl-show">言語</div>
+    <div class="segmented" role="radiogroup" aria-labelledby="lbl-show" data-setting="show">
+      <button type="button" role="radio" aria-checked="false" data-value="both">日英</button><button type="button" role="radio" aria-checked="false" data-value="jp">日本語</button><button type="button" role="radio" aria-checked="false" data-value="en">English</button>
+    </div>
+  </div>
+    <div class="field only-wide">
+      <div class="field">
+    <div class="field-label" id="lbl-layout">並べ方</div>
+    <div class="segmented" role="radiogroup" aria-labelledby="lbl-layout" data-setting="layout">
+      <button type="button" role="radio" aria-checked="false" data-value="stack">上下</button><button type="button" role="radio" aria-checked="false" data-value="side">左右</button>
+    </div>
+  </div>
+    </div>
+    <div class="field">
+      <div class="field-label" id="lbl-size">文字の大きさ</div>
+      <div class="size-row">
+        <span class="size-a small" aria-hidden="true">A</span>
+        <input type="range" id="set-size" min="0" max="4" step="1" value="2" aria-labelledby="lbl-size">
+        <span class="size-a large" aria-hidden="true">A</span>
+      </div>
+    </div>
+    <div class="field">
+      <div class="field-label" id="lbl-theme">テーマ</div>
+      <div class="themes" role="radiogroup" aria-labelledby="lbl-theme" data-setting="theme">
+        <button type="button" role="radio" aria-checked="false" data-value="auto" class="theme-swatch theme-auto">
+          <span class="swatch" aria-hidden="true"><span class="swatch-jp">あ</span><span class="swatch-en">Aa</span></span>
+          <span class="swatch-label">自動</span>
+        </button><button type="button" role="radio" aria-checked="false" data-value="light" class="theme-swatch theme-light">
+          <span class="swatch" aria-hidden="true"><span class="swatch-jp">あ</span><span class="swatch-en">Aa</span></span>
+          <span class="swatch-label">ライト</span>
+        </button><button type="button" role="radio" aria-checked="false" data-value="sepia" class="theme-swatch theme-sepia">
+          <span class="swatch" aria-hidden="true"><span class="swatch-jp">あ</span><span class="swatch-en">Aa</span></span>
+          <span class="swatch-label">セピア</span>
+        </button><button type="button" role="radio" aria-checked="false" data-value="dark" class="theme-swatch theme-dark">
+          <span class="swatch" aria-hidden="true"><span class="swatch-jp">あ</span><span class="swatch-en">Aa</span></span>
+          <span class="swatch-label">ダーク</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</dialog>
+<dialog class="sheet sheet-tall" id="sheet-toc" aria-labelledby="sheet-toc-title">
+  <div class="sheet-grabber" aria-hidden="true"></div>
+  <header class="sheet-head">
+    <h2 id="sheet-toc-title">目次</h2>
+    <button type="button" class="icon-btn" data-close aria-label="閉じる"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </header>
+  <div class="sheet-body sheet-scroll">
+    <ol class="toc-list" id="toc-list">
+      <li><a class="toc-row" href="/book-of-tea-reader/chapters/01_cup_of_humanity.html" data-slug="01_cup_of_humanity">
+    <span class="toc-num">01</span>
+    <span class="toc-titles"><span class="toc-jp">第一章　人情の碗</span><span class="toc-en">I. The Cup of Humanity</span>
+      <span class="progress-track" hidden><span class="progress-fill"></span></span>
+    </span>
+    <span class="toc-meta"><span class="toc-min">12分</span><span class="toc-state"></span></span>
+  </a></li><li><a class="toc-row" href="/book-of-tea-reader/chapters/02_schools_of_tea.html" data-slug="02_schools_of_tea">
+    <span class="toc-num">02</span>
+    <span class="toc-titles"><span class="toc-jp">第二章　茶の諸流</span><span class="toc-en">II. The Schools of Tea</span>
+      <span class="progress-track" hidden><span class="progress-fill"></span></span>
+    </span>
+    <span class="toc-meta"><span class="toc-min">13分</span><span class="toc-state"></span></span>
+  </a></li><li><a class="toc-row" href="/book-of-tea-reader/chapters/03_taoism_and_zennism.html" data-slug="03_taoism_and_zennism">
+    <span class="toc-num">03</span>
+    <span class="toc-titles"><span class="toc-jp">第三章　道教と禅道</span><span class="toc-en">III. Taoism and Zennism</span>
+      <span class="progress-track" hidden><span class="progress-fill"></span></span>
+    </span>
+    <span class="toc-meta"><span class="toc-min">15分</span><span class="toc-state"></span></span>
+  </a></li><li><a class="toc-row" href="/book-of-tea-reader/chapters/04_the_tea_room.html" data-slug="04_the_tea_room">
+    <span class="toc-num">04</span>
+    <span class="toc-titles"><span class="toc-jp">第四章　茶室</span><span class="toc-en">IV. The Tea-Room</span>
+      <span class="progress-track" hidden><span class="progress-fill"></span></span>
+    </span>
+    <span class="toc-meta"><span class="toc-min">17分</span><span class="toc-state"></span></span>
+  </a></li><li><a class="toc-row" href="/book-of-tea-reader/chapters/05_art_appreciation.html" data-slug="05_art_appreciation">
+    <span class="toc-num">05</span>
+    <span class="toc-titles"><span class="toc-jp">第五章　芸術鑑賞</span><span class="toc-en">V. Art Appreciation</span>
+      <span class="progress-track" hidden><span class="progress-fill"></span></span>
+    </span>
+    <span class="toc-meta"><span class="toc-min">11分</span><span class="toc-state"></span></span>
+  </a></li><li><a class="toc-row" href="/book-of-tea-reader/chapters/06_flowers.html" data-slug="06_flowers">
+    <span class="toc-num">06</span>
+    <span class="toc-titles"><span class="toc-jp">第六章　花</span><span class="toc-en">VI. Flowers</span>
+      <span class="progress-track" hidden><span class="progress-fill"></span></span>
+    </span>
+    <span class="toc-meta"><span class="toc-min">16分</span><span class="toc-state"></span></span>
+  </a></li><li><a class="toc-row" href="/book-of-tea-reader/chapters/07_tea_masters.html" data-slug="07_tea_masters">
+    <span class="toc-num">07</span>
+    <span class="toc-titles"><span class="toc-jp">第七章　茶の宗匠</span><span class="toc-en">VII. Tea-Masters</span>
+      <span class="progress-track" hidden><span class="progress-fill"></span></span>
+    </span>
+    <span class="toc-meta"><span class="toc-min">6分</span><span class="toc-state"></span></span>
+  </a></li>
+    </ol>
+  </div>
+</dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>window.__BOOK__ = {"id":"book-of-tea","base":"/book-of-tea-reader","title":"The Book of Tea","chapters":[{"slug":"01_cup_of_humanity","num":1,"label":"Chapter 01","jp":"第一章　人情の碗","en":"I. The Cup of Humanity","minutes":12,"total":121,"href":"/book-of-tea-reader/chapters/01_cup_of_humanity.html"},{"slug":"02_schools_of_tea","num":2,"label":"Chapter 02","jp":"第二章　茶の諸流","en":"II. The Schools of Tea","minutes":13,"total":140,"href":"/book-of-tea-reader/chapters/02_schools_of_tea.html"},{"slug":"03_taoism_and_zennism","num":3,"label":"Chapter 03","jp":"第三章　道教と禅道","en":"III. Taoism and Zennism","minutes":15,"total":154,"href":"/book-of-tea-reader/chapters/03_taoism_and_zennism.html"},{"slug":"04_the_tea_room","num":4,"label":"Chapter 04","jp":"第四章　茶室","en":"IV. The Tea-Room","minutes":17,"total":148,"href":"/book-of-tea-reader/chapters/04_the_tea_room.html"},{"slug":"05_art_appreciation","num":5,"label":"Chapter 05","jp":"第五章　芸術鑑賞","en":"V. Art Appreciation","minutes":11,"total":159,"href":"/book-of-tea-reader/chapters/05_art_appreciation.html"},{"slug":"06_flowers","num":6,"label":"Chapter 06","jp":"第六章　花","en":"VI. Flowers","minutes":16,"total":165,"href":"/book-of-tea-reader/chapters/06_flowers.html"},{"slug":"07_tea_masters","num":7,"label":"Chapter 07","jp":"第七章　茶の宗匠","en":"VII. Tea-Masters","minutes":6,"total":71,"href":"/book-of-tea-reader/chapters/07_tea_masters.html"}]};</script>
+<script src="/book-of-tea-reader/js/reader-ui.js" defer></script>
+<script src="/book-of-tea-reader/js/reading-progress.js" defer></script>
+
 </body>
 </html>
